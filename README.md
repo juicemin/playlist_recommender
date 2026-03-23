@@ -11,8 +11,12 @@ pip install -r requirements.txt
 Required packages include pandas, scikit-learn, ipywidgets, ipykernel and voila.
 
 # Run Project
-To launch the project as a clean, interactive web application, run this command in your terminal:
+1. Option A: Web Application (Recommended)
+Run this command in your terminal to launch the clean, interactive interface:
 voila main_recommender.ipynb
+
+2. Option B: Technical Review (Jupyter Notebook)
+Open main_recommender.ipynb and select Run All. You may uncomment the print() statements within the code cells if you wish to verify that the environment setup and data preparation steps are executing correctly.
 
 Note: Ensure the assets/ folder and clean_music_dataset.csv remain in the same directory as the notebook.
 
@@ -21,3 +25,4 @@ Note: Ensure the assets/ folder and clean_music_dataset.csv remain in the same d
 -clean_music_dataset.csv: Preprocessed data used for recommendations.
 -assets/: MP3 preview files for the different study modes.
 -requirements.txt: List of necessary Python dependencies.
+
